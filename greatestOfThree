@@ -1,0 +1,11 @@
+echo "Enter 3 numbers"
+read a b c
+if [ $a -ge $b ] && [ $a -ge $c ]
+then
+echo "Greatest number is "$a"(first)"
+elif [ $b -ge $a ] && [ $b -ge $c ]
+then
+echo "Greatest number is "$b"(second)"
+else
+echo "Greatest number is "$c"(third)"
+fi
